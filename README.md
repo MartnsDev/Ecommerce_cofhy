@@ -1,18 +1,16 @@
-☕ Cofhy – Coffee E-commerce
+## ☕ Cofhy – Meu projeto de e-commerce para cafés especiais
 
-A sleek and functional website for selling specialty coffee, providing a unique experience for coffee lovers.
+Esse é um site que eu desenvolvi para um amigo meu chamado Antony, ele planeja abrir no futuro uma cafeteria chamada cofhy.
 
-📌 Main Features
+A ideia foi criar algo funcional, Sem muitas informações desnecessárias, algo simples.
 
-Coffee Catalog – Detailed product showcase.
+  O que tem no site:
 
-Shopping Cart – Add items and easily complete your purchase.
+Catálogo de cafés – Produtos apresentados com todos os detalhes que importam.
+Carrinho de compras – Dá pra adicionar seus cafés favoritos e finalizar tudo sem complicação.
+Pedido via WhatsApp – Uma opção direta e prática.
+Design responsivo – O site se adapta bem em qualquer tela, do celular ao desktop.
 
-WhatsApp Ordering – Direct purchase option for added convenience.
+🔗 Você pode acessar aqui: cofhy.netlify.app
 
-Responsive Design – Modern and adaptable for any device.
-
-
-🔗 Visit the website: https://cofhy.netlify.app
-
- An ideal project for coffee shops and businesses in the coffee industry!
+Foi um projeto que me desafiou e me ensinou muito.
