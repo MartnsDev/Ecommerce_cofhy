@@ -1,8 +1,7 @@
-/* Mantendo a parte do início que você disse estar boa */
-/* Importando fontes */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap');
 
-/* Variáveis de cor */
+
 :root {
     --primary: #754D24;
     --primary-dark: #5D3D1D;
@@ -16,7 +15,7 @@
     --whatsapp: #25D366;
 }
 
-/* Reset e estilos base */
+
 * {
     margin: 0;
     padding: 0;
@@ -59,7 +58,7 @@ img {
     transition: transform 0.5s ease;
 }
 
-/* Botões */
+
 .button {
     display: inline-flex;
     align-items: center;
@@ -105,7 +104,7 @@ img {
     background-color: #1ea952;
 }
 
-/* Navbar */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -188,7 +187,7 @@ img {
     width: 100%;
 }
 
-/* Seção Hero */
+
 .hero {
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3');
@@ -383,7 +382,7 @@ img {
     }
 }
 
-/* Ajustamos o delay da animação para um efeito em cascata mais suave */
+
 .products-grid .product-card:nth-child(1) { animation-delay: 0.1s; }
 .products-grid .product-card:nth-child(2) { animation-delay: 0.2s; }
 .products-grid .product-card:nth-child(3) { animation-delay: 0.3s; }
@@ -543,7 +542,7 @@ img {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
 }
 
-/* Efeito de hover nas imagens com overlay */
+
 .product-card {
     position: relative;
 }
@@ -565,7 +564,7 @@ img {
     opacity: 1;
 }
 
-/* Footer mantido como estava */
+
 .footer {
     background-color: var(--primary-dark);
     color: var(--text-light);
@@ -659,7 +658,7 @@ img {
     opacity: 0.7;
 }
 
-/* Carrinho flutuante */
+
 .cart-icon {
     position: fixed;
     bottom: 30px;
@@ -784,12 +783,9 @@ img {
     background-color: #e0e0e0;
 }
 
-/* RESPONSIVIDADE APRIMORADA */
-/* Tablets (768px a 1023px) */
-/* Modificando apenas a parte de responsividade para celulares no CSS */
-/* ===== NAVEGAÇÃO E HEADER MOBILE COMPLETO ===== */
+
 @media (max-width: 768px) {
-    /* Navbar para dispositivos móveis */
+   
     .navbar {
         position: fixed;
         top: 0;
@@ -803,7 +799,7 @@ img {
     
     .nav-content {
         display: flex;
-        justify-content: center; /* Logo centralizado */
+        justify-content: center; 
         align-items: center;
         padding: 15px 20px;
         flex-wrap: wrap;
@@ -816,7 +812,7 @@ img {
         color: var(--primary);
     }
     
-    /* Navegação em formato de barra inferior fixa */
+
     .nav-links-container {
         position: fixed;
         bottom: 0;
@@ -830,7 +826,7 @@ img {
     
     .nav-links {
         display: flex;
-        justify-content: space-evenly; /* Espaçamento mais uniforme entre itens */
+        justify-content: space-evenly; 
         width: 100%;
         padding: 0;
         margin: 0;
@@ -840,13 +836,13 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 8px 3px; /* Reduzido o padding horizontal */
+        padding: 8px 3px; 
         border-radius: 8px;
         font-size: 0.75rem;
         color: var(--primary);
-        width: 18%; /* Reduzido de 20% para 18% */
+        width: 18%; 
         text-align: center;
-        margin: 0 1%; /* Adicionado margem para espaçamento */
+        margin: 0 1%; 
     }
     
     .nav-links a::before {
@@ -854,14 +850,14 @@ img {
         font-family: 'Font Awesome 5 Free';
         font-weight: 900;
         font-size: 1.2rem;
-        margin-bottom: 6px; /* Aumentado espaço entre ícone e texto */
+        margin-bottom: 6px; 
     }
     
-    .nav-links a:nth-child(1)::before { content: '\f015'; } /* Home */
-    .nav-links a:nth-child(2)::before { content: '\f0f4'; } /* Menu/Café - Nome alterado para "Cardápio" */
-    .nav-links a:nth-child(3)::before { content: '\f54e'; } /* Produtos */
-    .nav-links a:nth-child(4)::before { content: '\f2e7'; } /* Sobre */
-    .nav-links a:nth-child(5)::before { content: '\f095'; } /* Contato */
+    .nav-links a:nth-child(1)::before { content: '\f015'; }
+    .nav-links a:nth-child(2)::before { content: '\f0f4'; } 
+    .nav-links a:nth-child(3)::before { content: '\f54e'; } 
+    .nav-links a:nth-child(4)::before { content: '\f2e7'; } 
+    .nav-links a:nth-child(5)::before { content: '\f095'; } 
     
     .nav-links a.active {
         background-color: rgba(212, 165, 116, 0.2);
@@ -873,24 +869,24 @@ img {
     }
     
     .nav-links a::after {
-        display: none; /* Remove o underline que estava no estilo original */
+        display: none; 
     }
     
-    /* HERO SECTION MOBILE */
+  
     .hero {
         min-height: 90vh;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3');
         background-size: cover;
         background-position: center 30%;
         padding-top: 80px;
-        padding-bottom: 120px; /* Aumentado o espaço para a barra de navegação inferior */
+        padding-bottom: 120px; 
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
     }
     
-    /* Overlay para melhorar legibilidade em mobile */
+  
     .hero::before {
         content: '';
         position: absolute;
@@ -909,8 +905,8 @@ img {
         position: relative;
         z-index: 2;
         text-align: center;
-        padding: 30px 25px; /* Aumentado o padding */
-        width: 90%; /* Reduzido de 92% para 90% */
+        padding: 30px 25px; 
+        width: 90%;
         max-width: 500px;
         border-radius: 15px;
         backdrop-filter: blur(5px);
@@ -942,34 +938,32 @@ img {
     
     .hero-content p {
         font-size: 1rem;
-        margin-bottom: 30px; /* Aumentado de 25px para 30px */
+        margin-bottom: 30px; 
         line-height: 1.5;
         color: rgba(255, 255, 255, 0.95);
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
     
-    /* Botões do Hero reestilizados para mobile */
     .hero-buttons {
         display: grid;
     grid-template-columns: 1fr;
-    gap: 40px; /* Aumentado de 20px para 30px para maior espaçamento */
-    width: 95%; /* Reduzido para aumentar margem lateral */
+    gap: 40px; 
+    width: 95%; 
     margin: 0 auto;
 }
     
     .hero .button {
         .hero .button {
-            width: 100%;                                   /* Largura do botão ocupa 100% do container */
-            padding: 16px 20px;                            /* Espaçamento interno: 16px acima/abaixo, 20px esquerda/direita */
-            border-radius: 30px;                           /* Bordas arredondadas com raio de 30px */
-            font-weight: 600;                              /* Peso da fonte semibold */
-            font-size: 1rem;                               /* Tamanho da fonte de 1rem (16px em geral) */
-            display: flex;                                 /* Elemento configurado como flex container */
-            align-items: center;                           /* Alinha itens verticalmente ao centro */
-            justify-content: center;                       /* Alinha itens horizontalmente ao centro */
-            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);    /* Sombra: deslocamento-x 0, deslocamento-y 4px, desfocagem 15px, cor preta com 25% de opacidade */
-            margin: 0;                                     /* Sem margem externa */
-
+            width: 100%;                                  
+            padding: 16px 20px;                            
+            border-radius: 30px;                  
+            font-weight: 600;                         
+            font-size: 1rem;                               
+            display: flex;                           
+            align-items: center;                        
+            justify-content: center;                     
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);   
+            margin: 0;                                     
         }
     .hero .button-primary {
         background-color: #A0522D;
@@ -995,24 +989,22 @@ img {
         animation: shimmer 3s infinite;
     }
     
-    /* Botão modificado de WhatsApp para Comprar Agora */
     .hero .button-comprar {
         background-color: #8B4513;
         color: white;
         display: center;
         align-items: center;
         justify-content: center;
-        gap: 202px; /* Aumentado de 10px para 12px */
+        gap: 202px; 
     }
     
     .hero .button-comprar::before {
-        content: '\f07a';                      /* Adiciona o código Unicode do ícone de carrinho */
-        font-family: 'Font Awesome 5 Free';    /* Especifica a fonte Font Awesome 5 */
-        font-weight: 900;                      /* Define o peso da fonte como 900 (solid) */
-        font-size: 1.2rem;                     /* Define o tamanho do ícone um pouco maior que o texto */
-    }
+        content: '\f07a';                
+        font-family: 'Font Awesome 5 Free';  
+        font-weight: 900;                      
+        font-size: 1.2rem;                    
     
-    /* Efeito de hover para os botões em dispositivos que suportam hover */
+
     @media (hover: hover) {
         .hero .button:hover {
             transform: translateY(-5px);
@@ -1020,13 +1012,13 @@ img {
         }
     }
     
-    /* Efeito de toque ativo */
+
     .hero .button:active {
         transform: translateY(-2px);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     }
     
-    /* Badge de promoção flutuante */
+
     .promo-badge {
         position: absolute;
         top: 90px;
@@ -1055,7 +1047,6 @@ img {
         }
     }
     
-    /* Onda decorativa na parte inferior do hero */
     .hero-decoration {
         position: absolute;
         bottom: 0;
@@ -1069,7 +1060,6 @@ img {
         z-index: 2;
     }
     
-    /* Ajustes para smartphones muito pequenos */
     @media (max-width: 380px) {
         .hero-content h1 {
             font-size: 1.8rem;
@@ -1093,31 +1083,28 @@ img {
         
         .nav-links a {
             font-size: 0.7rem;
-            padding: 8px 2px; /* Reduzido ainda mais para telas menores */
+            padding: 8px 2px; 
         }
     }
     
-    /* Ajuste para o resto da página para não ser sobreposto pela barra de navegação */
+    
     .featured, 
     .about, 
     .testimonials, 
     .contact, 
     .footer {
-        padding-bottom: 80px; /* Espaço para a barra de navegação inferior */
+        padding-bottom: 80px; 
     }
     
-    /* Ajuste para o carrinho flutuante para não sobrepor a navegação */
+
     .cart-icon {
         bottom: 80px;
     }
   }
 }
-/* Removendo o comportamento que esconde o menu e a necessidade de botão para mobile */
-/* RESPONSIVIDADE PARA CELULARES */
 
-/* Estilos base para dispositivos móveis */
 
-/* Desktop grande (1440px e acima) */
+
 @media (min-width: 1440px) {
     .container {
         max-width: 1320px;
@@ -1141,7 +1128,7 @@ img {
     }
 }
 
-/* Mobile grande (481px a 767px) */
+
 @media (min-width: 481px) and (max-width: 767px) {
     .products-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1191,7 +1178,7 @@ img {
     }
 }
 
-/* Mobile pequeno (até 480px) */
+
 @media (max-width: 480px) {
     .products-grid {
         grid-template-columns: 1fr;
@@ -1256,7 +1243,7 @@ img {
     }
 }
 
-/* Animação para quando elementos aparecem ao rolar a página */
+
 .reveal {
     opacity: 0;
     transform: translateY(50px);
@@ -1268,7 +1255,7 @@ img {
     transform: translateY(0);
 }
 
-/* Efeito de hover adicional para os cartões de produto */
+
 .product-card {
     transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
@@ -1278,8 +1265,7 @@ img {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12), 0 0 0 5px rgba(212, 165, 116, 0.2);
 }
 
-/* Animação para destaque de novos produtos */
-/* Animação para destaque de novos produtos */
+
 .product-card.new::before {
     content: 'Novo';
     position: absolute;
@@ -1308,13 +1294,11 @@ img {
     }
 }
 
-/* Efeito de hover nos botões com transição suave */
 .button, .add-to-cart, .button-whatsapp {
     backface-visibility: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
-/* Scroll to top button */
 .scroll-top {
     position: fixed;
     bottom: 100px;
@@ -1346,7 +1330,7 @@ img {
     transform: translateY(-5px);
 }
 
-/* Animação do carrinho quando adiciona itens */
+
 @keyframes cartBump {
     0% {
         transform: scale(1);
@@ -1363,7 +1347,7 @@ img {
     animation: cartBump 0.5s ease;
 }
 
-/* Estilo para quantidade de itens no carrinho */
+
 .item-quantity {
     display: flex;
     align-items: center;
@@ -1392,7 +1376,7 @@ img {
     font-weight: 500;
 }
 
-/* Estilo para o item do carrinho */
+
 .cart-item {
     margin-bottom: 10px;
 }
@@ -1418,7 +1402,7 @@ img {
     transform: scale(1.2);
 }
 
-/* Efeito de notificação para ações do carrinho */
+
 .notification {
     position: fixed;
     top: 20px;
@@ -1437,7 +1421,7 @@ img {
     transform: translateX(0);
 }
 
-/* Efeitos de loading para operações */
+
 .loading {
     display: inline-block;
     width: 20px;
@@ -1454,7 +1438,6 @@ img {
     }
 }
 
-/* Estilo para o preço com desconto */
 .price-discount {
     display: flex;
     align-items: center;
@@ -1476,13 +1459,13 @@ img {
     font-weight: 600;
 }
 
-/* Efeito de zoom suave nas imagens */
+
 .product-card .image-container {
     overflow: hidden;
     border-radius: 15px 15px 0 0;
 }
 
-/* Estilo para tags nos produtos */
+
 .product-tag {
     position: absolute;
     top: 15px;
@@ -1510,7 +1493,7 @@ img {
     color: white;
 }
 
-/* Efeito de sombreamento na seção de contato */
+
 .contact-card {
     background-color: white;
     border-radius: 15px;
@@ -1524,7 +1507,7 @@ img {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
 }
 
-/* Estilo para avaliações de produtos */
+
 .product-rating {
     display: flex;
     align-items: center;
@@ -1541,7 +1524,7 @@ img {
     color: #777;
 }
 
-/* Efeito de transição para o menu de navegação em smartphones */
+
 @media (max-width: 768px) {
     .mobile-menu-btn {
         display: block;
@@ -1572,7 +1555,7 @@ img {
     }
 }
 
-/* Loader para carregamento de página */
+
 .page-loader {
     position: fixed;
     top: 0;
@@ -1610,7 +1593,7 @@ img {
     }
 }
 
-/* Estilo para mensagem de confirmação de pedido */
+
 .order-confirmation {
     background-color: #dff0d8;
     color: #3c763d;
