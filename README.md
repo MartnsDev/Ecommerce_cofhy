@@ -1,6 +1,6 @@
 ☕ Cofhy – Coffee E-commerce
 
-🚀 A sleek and functional website for selling specialty coffee, providing a unique experience for coffee lovers.
+A sleek and functional website for selling specialty coffee, providing a unique experience for coffee lovers.
 
 📌 Main Features
 
@@ -15,4 +15,4 @@ Responsive Design – Modern and adaptable for any device.
 
 🔗 Visit the website: https://cofhy.netlify.app
 
-💡 An ideal project for coffee shops and businesses in the coffee industry!
+ An ideal project for coffee shops and businesses in the coffee industry!
