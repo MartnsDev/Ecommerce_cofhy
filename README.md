@@ -11,6 +11,6 @@ Carrinho de compras – Dá pra adicionar seus cafés favoritos e finalizar tudo
 Pedido via WhatsApp – Uma opção direta e prática.
 Design responsivo – O site se adapta bem em qualquer tela, do celular ao desktop.
 
-🔗 Você pode acessar aqui: cofhy.netlify.app
+🔗 Você pode acessar aqui: [Cofhy.com](cofhy.netlify.app)
 
 Foi um projeto que me desafiou e me ensinou muito.
